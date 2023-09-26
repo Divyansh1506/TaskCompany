@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+</head>
+
+<style>
+    *{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+section{
+    height: 80vh;
+    width: 100%;
+    /* background-color: rgb(73, 107, 107); */
+}
+.content{
+    margin: 100px 200px;
+    height: 450px;
+    width: 600px;
+    /* background-color: aqua; */
+
+
+}
+.content form{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 35px;
+}
+h1{
+    font-family: "cinzel";
+    font-weight: 100;
+    font-size: 50px;
+}
+h2{
+    font-family: "cinzel";
+    font-weight: 100;
+    font-size: 30px;
+}
+.mini{
+    margin: 25px 0;
+    border: 1px solid #626262;
+    padding: 50px 20px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+button{
+    padding: 5px 10px;
+    width: 20%;
+}
+</style>
+<body>
+    <section>
+        <div class="content">
+            <h1>My Account</h1>
+            <H2>login</H2>
+            <div class="mini">
+                <form action="#">
+                    <label for="username">Username or E-mail address </label>
+                    <input type="text" placeholder="" id="username">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="" id="password">  
+                    <button>Login</button>
+                    <p>Lost Your Password?</p>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

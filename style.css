@@ -1,0 +1,352 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "gilroy";
+}
+/****NAVBAR*****/
+
+.top-nav,.toppest-part{
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: -120px;
+}
+.toppest-part{
+    background-color: #d1d1d1;
+    height: 40px;
+    font-size: 12px;
+}
+.toppest-part .mid{
+    text-align: center;
+    padding: 15px 0;
+    padding-top: 35px;
+
+}
+.top-nav>.mid img{
+    height: 45px;
+}
+.top-nav .right{
+    display: flex;
+    gap: 20px;
+}
+.top-nav .right i {
+    font-size: 25px;
+}
+.btm-nav>h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-family: "cinzel semibold";
+}
+header{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    font-size: 12px;
+    background-color: rgb(255, 255, 255);
+ }
+.dropdown-menu{
+    display: none;
+    height: 500px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.one:hover .menu1{ 
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: #656565;
+}
+
+
+/****FOOTER*****/
+
+
+footer{
+    height: 55%;
+    width: 100%;
+    background-color: #333333;
+    padding: 120px 0;
+}
+footer .parts{
+   display: flex; 
+   letter-spacing: 1.5px;
+   gap: 5px;
+   flex-direction: column;
+}
+footer .parts h5, footer .parts a{
+    color: #fff;
+    text-decoration: none;
+}
+footer .parts h5{
+    font-size: 15px;
+}
+footer .parts a{
+    font-size: 12px;
+}
+footer .part4 .btns{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #fff;
+}
+footer .part4 input{
+    background-color: #333333;
+    border: none;
+}
+footer .part4 button{
+    background-color: #333333;
+    border: none;
+    color: #ffff;
+}
+footer .part4 .icons{
+    font-size: 23px;
+}
+
+/****PAGES****/
+
+/*First Page*/
+
+.first{
+    height: 110vh;
+    width: 100%;
+}
+
+/*Second Page*/
+
+.second{
+    height: 52%;
+    width: 100%;
+}
+.second .card{
+    position: relative;
+    border-radius: 0;
+}
+.second .card img{
+    border-radius: 0;
+}
+.second h2{
+    font-family: "Cinzel semibold";
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.second :last-child{
+    font-family: "Cinzel";
+}
+.second h2 span{
+   font-size: 42px;
+}
+.second :last-child{
+    font-size: 48px;
+    font-weight: 100;
+}
+.cards .card a{
+    display: none;
+    color: #fff;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.cards .card:hover a{
+    color: #FFF;
+    display: flex;
+    font-size: 20px;
+    z-index: 10;
+}
+
+.cards .card::after{
+    position: absolute;
+    content: "";
+    height: 100% ;
+    transition: .8s;
+}
+.cards .card:hover:after{
+    background: #000000eb;
+    width: 100%;
+    text-align: center;
+}
+
+.third{
+    height: 120vh;
+    width: 100%;
+    background-position: center;
+    background-image: url("https://i0.wp.com/www.marcpridmore.com/wp-content/uploads/2023/02/Screenshot-2023-02-28-at-5.44.31-PM.png?fit=2876%2C1924&ssl=1");
+    background-size: cover;
+}
+
+.fourth{
+    height: 85vh;
+    width: 100%;
+}
+.fourth .top{
+    height: 20%;
+    width: 100%;
+}
+.fourth .mid{
+    height: 78%;
+    width: 90%;
+    margin: 0 5% 5%;
+    background-color: chocolate;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://i0.wp.com/www.marcpridmore.com/wp-content/uploads/2020/11/Interior_Design_Materials.jpg?fit=1070%2C900&ssl=1");
+}
+.fourth .btm{
+    height: 2%;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #000;
+}
+.btn1{
+    color: #ffffff;
+    background-color: black;
+}
+.btn2{
+    color: #000;
+    background-color: #ffff;
+}
+.fourth .text-content{
+    position: absolute;
+    height: 50%;
+    width: 30%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-family: "Playfair Display";
+}
+.fourth .text-content h2{
+    font-size: 45px;
+    font-weight: 500;
+}
+.fourth .text-content h5{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "gilroy";
+    letter-spacing: 2px;
+}
+
+.fifth{
+    height: 120vh;
+    width: 100%;
+}
+.fifth video{
+    height: 100%;
+    width: 100%;
+}
+
+.sixth{
+    height: 80vh;
+    width: 100%;
+}
+.sixth .left{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+.sixth .left .image{
+    position: absolute;
+    top: 50%;
+    left: 68%;
+    transform: translate(-50%,-50%);
+    height: 520px;
+    width: 380px;
+    background-color: #fff;
+    background-image: url(https://i0.wp.com/www.marcpridmore.com/wp-content/uploads/2020/10/marc-scaled.jpg?resize=1122%2C1536&ssl=1);
+    background-size: cover;
+}
+.sixth .right{
+    height: 100%;
+    width: 50%;
+    padding: 50px 200px 50px 50px;
+}
+.sixth .right :nth-child(1){
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-family: "cinzel";
+}
+.sixth .right :nth-child(3){
+    font-size: 18px;
+    padding-left: 25px;
+}
+.sixth .right :nth-child(4){
+    font-size: 16px;
+    color: #c8c8c8;
+}
+.line{
+    position: absolute;
+    height: 110px;
+    border: 1px solid black;
+}
+
+.seventh{
+    height: 75vh;
+    width: 100%;
+}
+.seventh .cards{
+    padding: 5px 25px;
+    height: 320px;
+    width: 320px;
+}
+.seventh .cards .image{
+    height: 85%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.seventh .cards .image1 {
+    background-image: url("https://scontent-lax3-2.cdninstagram.com/v/t51.36329-15/372858001_676413354412389_2996479553878288083_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=v1IfC1wG3S8AX-lmK3u&_nc_ht=scontent-lax3-2.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AfCxMshHJqTcsX5rES9geB3_vJwkzVbpNbImYRAq1x4T3Q&oe=65100F00");
+}
+.seventh .cards .image2 {
+background-image: url("https://scontent-lax3-2.cdninstagram.com/v/t51.29350-15/363910425_6381738891932966_1557846532449208989_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=DQ5yd6FIlSMAX-PvHBD&_nc_ht=scontent-lax3-2.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AfBF7z3jLhzPADzK_Vbe0-BOqN5c3oRqB37F8xZpbJzuiQ&oe=651058C8");
+}
+.seventh .cards .image3{
+background-image: url("https://scontent-lax3-1.cdninstagram.com/v/t51.29350-15/363294527_673115270858011_3397150605391482902_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=M7BIggznz_oAX8-KKi6&_nc_ht=scontent-lax3-1.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AfB-dJyeC-TFXKKK-J7wL-7tve23vI68VfXq8oHgj6-fcA&oe=65113B22");
+}
+.seventh .cards .image4{
+background-image: url("https://scontent-lax3-2.cdninstagram.com/v/t51.29350-15/363290092_145714891861691_5020107832691037946_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=zW-hNwliNWgAX9WcCXd&_nc_ht=scontent-lax3-2.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AfCqBley6zMKxV4TrKLc7pv2mM_bViJKSxUcPjVetS34_Q&oe=65117800");
+}
+
+.seventh .cards .text{
+    padding: 10px;
+    height: 15%;
+    width: 100%;
+    text-align: center;
+}
+.seventh .cards .text p, .seventh .cards .text .icons {
+    font-size: 12px;
+}
+.btn-insta{
+    padding: 5px 15px;
+    background-color: #0068A0;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+}
+

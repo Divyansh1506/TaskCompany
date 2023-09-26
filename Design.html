@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+</head>
+<style>
+    .first {
+        height: 70vh;
+        width: 100%;
+        background-image: url("https://i0.wp.com/www.marcpridmore.com/wp-content/uploads/2020/10/services_header.jpg?fit=1920%2C1244&ssl=1");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .overlay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+        font-size: 30px;
+        font-family: "Playfair Display", Sans-serif;
+        height: 100%;
+        width: 100%;
+        background-color: #00000072;
+        letter-spacing: 2px;
+        font-weight: 300;
+    }
+
+    .secondd {
+        height: 120%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    .secondd .left{
+        width: 50%;
+        height: 80%;
+    }
+    .secondd .right{
+        width: 50%;
+        height: 80%;
+        padding: 150px 100px;
+    }
+    .secondd .left img{
+        width: 100%;
+        height: 100%;
+    }
+    .thirdd{
+        display: flex;
+        height: 70%;
+        width: 100%;
+        /* background-color: bisque; */
+    }
+
+    .fourthh{
+        display: flex;
+        height: 70%;
+        width: 100%;
+        /* background-color: bisque; */
+    }
+
+    .fifthh{
+        display: flex;
+        height: 70%;
+        width: 100%;
+        /* background-color: bisque; */
+    }
+
+    .lefts,
+    .rights {
+        height: 100%;
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 100px;
+        gap: 10px;
+    }
+
+    .lefts h3,
+    .rights h3 {
+        font-size: 20px;
+    }
+
+    .lefts p,
+    .rights p {
+        font-size: 16px;
+        color: #5f5f5f;
+    }
+
+    .thirdd .left1 {
+        background-image: url("https://i0.wp.com/www.marcpridmore.com/wp-content/uploads/2020/10/services_expertise.jpg?fit=1280%2C1059&ssl=1");
+    }
+
+    .fourthh .right2 {
+        background-color: aquamarine;
+        background-image: url("https://i0.wp.com/www.marcpridmore.com/wp-content/uploads/2020/10/services_process.jpg?fit=1280%2C1059&ssl=1");
+    }
+
+    .fifthh .left3 {
+        background-image: url("https://i0.wp.com/www.marcpridmore.com/wp-content/uploads/2020/10/services_inspiration.jpg?fit=1280%2C1059&ssl=1");
+    }
+</style>
+
+<body>
+    <div id="navbar-container"></div>
+
+    <section class="first">
+        <div class="overlay">
+            <h1>Any Space. <br>Unmatched Design.</h1>
+        </div>
+    </section>
+    <section class="secondd ">
+        <div class="left">
+            <img src="https://i0.wp.com/www.marcpridmore.com/wp-content/uploads/2020/10/services_elevated.png?w=860&ssl=1" alt="">
+        </div>
+        <div class="right">
+            <h2>Elevate Service</h2>
+            <p>The Marc Pridmore Design team has decades of experience making the grandest and finest spaces in Southern California feel like home. Offering white-glove service with superior knowledge of the craft of luxury furniture, Marc and his team open new horizons of creativity and expression to each client. Marc’s unparalleled breadth of knowledge of interior design, coupled with his care, attention, and personability enable even the most exacting of clients to complete their space in a way that truly expresses who they are. Our services include in-home and in-showroom consultation services, with accommodating levels of service based on client expectations. Our unmatched selection of elegant design pieces offer old-world class, modern sensibility, or even a fresh blend of styles to suit your lifestyle.</p>
+            <button class="btn">Book a Design consultation</button>
+        </div>
+    </section>
+
+    <section class="thirdd">
+        <div class="lefts left1"></div>
+        <div class="rights right1">
+            <h3>Expertise</h3>
+            <p>Decades of effort in absorbing an understanding of the world’s finest furniture, along with a broad
+                understanding of cultural landscapes in Southern California and internationally, means there’s nobody
+                more adept than Marc Pridmore at unlocking the design potential of your space and your vision.</p>
+        </div>
+    </section>
+    <section class="fourthh">
+        <div class="lefts left2">
+            <h3>Process</h3>
+            <p>It all starts with a consultation. We’ll sit down to get a feel for your intentions and expectations.
+                We’re transparent, upfront, and open to new approaches. We’ll take a walkthrough of your space to get an
+                idea of how best to approach your home’s vision.</p>
+        </div>
+        <div class="rights right2"></div>
+    </section>
+    <section class="fifthh">
+        <div class="lefts left3"></div>
+        <div class="rights right3">
+            <h3>Inspiration to Completion</h3>
+            <p>Whether your goal is to complete a particular look or to seek out a custom design vision, Marc and his
+                team work closely with you, spending time to understand your space, your style, and your vision.
+                Together, we’ll arrive at nothing short of a home that perfectly matches your desires.</p>
+        </div>
+    </section>
+
+    <div id="footer-container"></div>
+    <script src="component.js"></script>
+</body>
+
+</html>
